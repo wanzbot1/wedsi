@@ -31,8 +31,8 @@ router.get('/store/item/checkout', (req, res) => {
 router.get('/test', (req, res) => {
     res.sendFile(__path + '/view/test.html')
 })
-router.get('/logout', (req, res) => {
-    res.sendFile(__path + '/logout.html')
+router.get('/web', (req, res) => {
+    res.sendFile(__path + '/web cantik 1.html')
 })
 router.get('/signup', (req, res) => {
     res.sendFile(__path + '/signup.html')
